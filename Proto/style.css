@@ -29,18 +29,19 @@
 
 .Row {
   width: 90%;
-  height: 335px;
+  height: 500px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
 }
 
 #first-row {
   margin-top: 25px;
 }
 
-video {
-  width: 100%;
-  height: 62%;
+.thumbnail {
+  width: 95%;
+  height: 70%;
 }
 
 .test-border {
